@@ -35,3 +35,6 @@ jobs:
         uses: wearerequired/lint-action@v2
         with:
           php_codesniffer: true
+
+      - name: Codeception Action
+        uses: joelwmale/codeception-action@1.0.0
