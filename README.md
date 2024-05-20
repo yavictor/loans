@@ -1,5 +1,5 @@
-Loans API
-English
+## Loans API
+
 Overview
 
 The Loans API is a RESTful service designed to manage loans. It provides endpoints to process loan applications.
@@ -9,31 +9,31 @@ Features
 
 Installation
 
-    Clone the repository:
+Clone the repository:
 
     bash
 
-git clone https://github.com/yavictor/loans.git
+    git clone https://github.com/yavictor/loans.git
 
 Navigate to the project directory:
 
-bash
-
-cd loans
+    bash
+    
+    cd loans
 
 Install dependencies:
 
-bash
-
-composer install
+    bash
+    
+    composer install
 
 Set up the environment variables:
 Create a .env file in the root directory and add your configuration:
 
-plaintext
-
-PORT=3000
-DB_CONNECTION_STRING=your_database_connection_string
+    plaintext
+    
+    PORT=3000
+    DB_CONNECTION_STRING=your_database_connection_string
 
 Start your loacal or remote server
 
