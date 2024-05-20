@@ -5,32 +5,24 @@ Overview
 The Loans API is a RESTful service designed to manage loans. It provides endpoints to process loan applications.
 Features
 
-    Loan Application Processing: Submit and process loan information.
+-   Loan Application Processing: Submit and process loan information.
 
 Installation
 
 Clone the repository:
 
-    bash
-
     git clone https://github.com/yavictor/loans.git
 
 Navigate to the project directory:
-
-    bash
     
     cd loans
 
 Install dependencies:
-
-    bash
     
     composer install
 
 Set up the environment variables:
 Create a .env file in the root directory and add your configuration:
-
-    plaintext
     
     PORT=3000
     DB_CONNECTION_STRING=your_database_connection_string
@@ -50,23 +42,23 @@ Usage
 
 Use an API client like Postman or cURL to interact with the API. For example, to submit a new loan application:
 
-bash
+    bash
 
-curl -X POST http://localhost:3000/api/loans -H "Content-Type: application/json" -d '{
-"clientId": "12345",
-"amount": 1000,
-"term": 12,
-"interestRate": 5
-}'
+    curl -X POST http://localhost:3000/api/loans -H "Content-Type: application/json" -d '{
+    "clientId": "12345",
+    "amount": 1000,
+    "term": 12,
+    "interestRate": 5
+    }'
 
 Contributing
 
-    Fork the repository.
-    Create a new branch (git checkout -b feature-branch).
-    Make your changes.
-    Commit your changes (git commit -am 'Add new feature').
-    Push to the branch (git push origin feature-branch).
-    Create a new Pull Request.
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a new Pull Request.
 
 License
 
